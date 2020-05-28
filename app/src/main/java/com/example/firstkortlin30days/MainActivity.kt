@@ -1,5 +1,6 @@
 package com.example.firstkortlin30days
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -14,11 +15,17 @@ class MainActivity : AppCompatActivity() {
 
         var but = findViewById<Button>(R.id.button)
         var outtext = findViewById<TextView>(R.id.output)
+        var comp = findViewById<Button>(R.id.compare)
 
 
 
         but.setOnClickListener { 
             outtext.text= "Number ="+outputNumber()
+        }
+        comp.setOnClickListener {
+            var intent = Intent( this , compareOutput::class.java)
+            startActivity(intent)
+
         }
     }
     fun outputNumber(): Int? {
