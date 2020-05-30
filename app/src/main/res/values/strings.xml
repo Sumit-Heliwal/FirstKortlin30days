@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">First Kortlin 30days</string>
+    <string name="button">Button</string>
+    <string name="press_button_for_number">Press Button For Number</string>
+    <string name="compare">Compare</string>
 </resources>

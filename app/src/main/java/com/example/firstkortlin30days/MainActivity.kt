@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
             outtext.text= "Number ="+outputNumber()
         }
         comp.setOnClickListener {
-            var intent = Intent( this , compareOutput::class.java)
+            var intent = Intent( this , NameInputList::class.java)
             startActivity(intent)
 
         }
