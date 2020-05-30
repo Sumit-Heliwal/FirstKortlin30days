@@ -3,4 +3,9 @@
     <string name="button">Button</string>
     <string name="press_button_for_number">Press Button For Number</string>
     <string name="compare">Compare</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="player_name">Player Name</string>
+    <string name="compare_your_luck">Compare your Luck</string>
+    <string name="compare_2_dice">Compare 2 Dice</string>
+    <string name="lucky_4">Lucky 4</string>
 </resources>
