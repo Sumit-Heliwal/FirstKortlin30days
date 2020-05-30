@@ -8,4 +8,11 @@
     <string name="compare_your_luck">Compare your Luck</string>
     <string name="compare_2_dice">Compare 2 Dice</string>
     <string name="lucky_4">Lucky 4</string>
+    <string name="score">Score</string>
+    <string name="number">Number</string>
+    <string name="back">Back</string>
+    <string name="less_then_4">Less then 4</string>
+    <string name="equal_to_4">Equal to 4</string>
+    <string name="greater_then_4">Greater then 4</string>
+    <string name="reset">Reset</string>
 </resources>

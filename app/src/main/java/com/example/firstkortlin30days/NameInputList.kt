@@ -14,29 +14,27 @@ class NameInputList : AppCompatActivity() {
         setContentView(R.layout.activity_name_input_list)
 
 
-        var players =findViewById<EditText>(R.id.name)
-        var lucky =findViewById<Button>(R.id.lucky)
-        var luck =findViewById<Button>(R.id.luck)
-        var twodice =findViewById<Button>(R.id.twodice)
+        val players =findViewById<EditText>(R.id.name)
+        val lucky =findViewById<Button>(R.id.lucky)
+        val luck =findViewById<Button>(R.id.luck)
+        val twodice =findViewById<Button>(R.id.twodice)
 
-        fun getName(): Editable? {
-            return players.text
-        }
+
         lucky.setOnClickListener {
-            var intent = Intent( this , NameInputList::class.java)
-            intent.putExtra( "name" , getName())
+            val intent = Intent( this , Lucky4::class.java)
+            intent.putExtra( "name" , players.text.toString())
             startActivity(intent)
 
         }
         luck.setOnClickListener {
-            var intent = Intent( this , NameInputList::class.java)
-            intent.putExtra( "name" , getName())
+            val intent = Intent( this , NameInputList::class.java)
+            intent.putExtra( "name" , players.text.toString())
             startActivity(intent)
 
         }
         twodice.setOnClickListener {
-            var intent = Intent( this , NameInputList::class.java)
-            intent.putExtra( "name" , getName())
+            val intent = Intent( this , NameInputList::class.java)
+            intent.putExtra( "name" , players.text.toString())
             startActivity(intent)
 
         }
