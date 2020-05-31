@@ -27,7 +27,7 @@ class NameInputList : AppCompatActivity() {
 
         }
         luck.setOnClickListener {
-            val intent = Intent( this , NameInputList::class.java)
+            val intent = Intent( this , CompareLuck::class.java)
             intent.putExtra( "name" , players.text.toString())
             startActivity(intent)
 

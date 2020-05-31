@@ -14,5 +14,11 @@
     <string name="less_then_4">Less then 4</string>
     <string name="equal_to_4">Equal to 4</string>
     <string name="greater_then_4">Greater then 4</string>
+    <string name="_1">1</string>
     <string name="reset">Reset</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
 </resources>
