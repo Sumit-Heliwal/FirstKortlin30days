@@ -33,7 +33,7 @@ class NameInputList : AppCompatActivity() {
 
         }
         twodice.setOnClickListener {
-            val intent = Intent( this , NameInputList::class.java)
+            val intent = Intent( this , Compare2Dice::class.java)
             intent.putExtra( "name" , players.text.toString())
             startActivity(intent)
 
